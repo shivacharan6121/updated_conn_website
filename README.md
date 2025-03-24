@@ -103,6 +103,13 @@ By following these steps, your website should be accessible to all devices on yo
 ### Demo
 ### Main page
 ![Screenshot_2025-03-24_13_24_05](https://github.com/user-attachments/assets/a4878969-7d32-4bd3-88a8-fbb21710245f)
+
+### Download option
 ![Screenshot_2025-03-24_13_27_23](https://github.com/user-attachments/assets/51e898b4-9a41-412b-88ed-74f73e276b35)
 
+### View option
+![Screenshot_2025-03-24_13_26_37](https://github.com/user-attachments/assets/8fd77930-b70d-4bc7-8367-ca3e2aeae4a7)
 
+### Dilaog box
+
+![Screenshot_2025-03-24_13_30_49](https://github.com/user-attachments/assets/1329bb9c-9132-4c2b-b69b-c2939d80c258)
