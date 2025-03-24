@@ -1,0 +1,201 @@
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; 
+    /* Optional: Set a default font */
+}
+body{
+    background-color: #151b27;
+}
+.header {
+    background-color: #151b27;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.header-gif {
+    width: 50px; /* Set a default width for the GIF */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Add spacing between the GIF and the heading */
+}
+
+.menu-bar {
+    background-color: #151b27;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+}
+
+.menu-bar a:hover {
+    background-color: #9fef00;
+    color: #000000;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 300px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1a2332;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.alert {
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    padding: 20px;
+    color: white;
+}
+
+.alert-success {
+    background-color: #9fef00;
+    color: black;
+    border: none;
+}
+
+.alert-error {
+    background-color: #9fef00;
+    color: black;
+    border: none;
+}
+
+.alert-warning {
+    background-color: #9fef00;
+    color: black;
+    border: none;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: #000;
+}
+.confirmation-box-gif {
+    width: 75px; /* Set a default width for the GIF */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Add spacing between the GIF and the heading */
+}
+.confirmation-box button.confirm {
+    background-color: #9fef00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.confirmation-box button.cancel {
+    background-color: #9fef00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.toggle-btn {
+    flex: 1;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+    border: none;
+    background-color: #1e283a;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.toggle-btn.active {
+    background-color: #9fef00;
+    color: #000000;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.active {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+input[type="text"], input[type="number"] {
+    width: 95%;
+    padding: 0.8rem;
+    outline: none;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #1e283a;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #9fef00;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #9ce901;
+}
