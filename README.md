@@ -100,4 +100,9 @@ If you want other devices on the LAN to access the MySQL database:
 
 By following these steps, your website should be accessible to all devices on your LAN. Let me know if you encounter any issues!
 
-https://2926-103-164-70-65.ngrok-free.app/conn_website/index.php
+### Demo
+### Main page
+![Screenshot_2025-03-24_13_24_05](https://github.com/user-attachments/assets/a4878969-7d32-4bd3-88a8-fbb21710245f)
+![Screenshot_2025-03-24_13_27_23](https://github.com/user-attachments/assets/51e898b4-9a41-412b-88ed-74f73e276b35)
+
+
